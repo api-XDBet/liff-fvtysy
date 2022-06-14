@@ -205,17 +205,9 @@ tr:nth-child(even) {
 }
 
 fieldset {
-  display: -moz-box;
-  display: -webkit-box;
-  display: box;
-  -moz-box-pack: center;
-  -moz-box-align: center;
-  -webkit-box-pack: center;
-  -webkit-box-align: center;
-  box-pack: center;
-  box-align: center;
   text-align: center;
+  margin: 0px auto;
   border-width: 3px;
   border-radius: 30px;
-  width: auto;
+  width: fit-content;
 }
