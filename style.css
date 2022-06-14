@@ -168,9 +168,9 @@ form {
 legend {
   color: #f2f2f2;
   font-size: 30px;
-  padding: 8px 20px;
+  padding: 5px 10px;
   position: absolution;
-  bottom: 8px;
+  bottom: 200px;
   width: auto;
   text-align: center;
 }
