@@ -137,7 +137,7 @@
    * Enabling this might have a severe performance impact.
    * Defaults to false.
    */
-  // "editor.automaticLayout": false,
+  "editor.automaticLayout": false,
   /**
    * Control the wrapping of the editor.
    * When `wordWrap` = "off", the lines will never wrap.
@@ -146,7 +146,7 @@
    * When `wordWrap` = "bounded", the lines will wrap at min(viewport width, wordWrapColumn).
    * Defaults to "off".
    */
-  // "editor.wordWrap": "on",
+  "editor.wordWrap": "on",
   /**
    * Control the wrapping of the editor.
    * When `wordWrap` = "off", the lines will never wrap.
@@ -155,27 +155,27 @@
    * When `wordWrap` = "bounded", the lines will wrap at min(viewport width, wordWrapColumn).
    * Defaults to 80.
    */
-  // "editor.wordWrapColumn": 0,
+  "editor.wordWrapColumn": 0,
   /**
    * Force word wrapping when the text appears to be of a minified/generated file.
    * Defaults to true.
    */
-  // "editor.wordWrapMinified": true,
+  "editor.wordWrapMinified": true,
   /**
    * Control indentation of wrapped lines. Can be: 'none', 'same', 'indent' or 'deepIndent'.
    * Defaults to 'same' in vscode and to 'none' in monaco-editor.
    */
-  // "editor.wrappingIndent": "same",
+  "editor.wrappingIndent": "same",
   /**
    * Configure word wrapping characters. A break will be introduced before these characters.
    * Defaults to '{([+'.
    */
-  // "editor.wordWrapBreakBeforeCharacters": "{([+",
+  "editor.wordWrapBreakBeforeCharacters": "{([+",
   /**
    * Configure word wrapping characters. A break will be introduced after these characters.
    * Defaults to ' \t})]?|&,;'.
    */
-  // "editor.wordWrapBreakAfterCharacters": " \t})]?|&,;",
+  "editor.wordWrapBreakAfterCharacters": " \t})]?|&,;",
   /**
    * Configure word wrapping characters. A break will be introduced after these characters only if no `wordWrapBreakBeforeCharacters` or `wordWrapBreakAfterCharacters` were found.
    * Defaults to '.'.
@@ -407,7 +407,7 @@
   /**
    * The font family
    */
-  "editor.fontFamily": "Menlo, Monaco, 'sarabun', monospace",
+  "editor.fontFamily": "Menlo, Monaco, 'Consolas', monospace",
   /**
    * The font weight
    */
@@ -415,11 +415,11 @@
   /**
    * The font size
    */
-  "editor.fontSize": 14,
+  "editor.fontSize": 16,
   /**
    * The line height
    */
-  "editor.lineHeight": 1.5,
+  "editor.lineHeight": 0,
   /**
    * The letter spacing
    */
