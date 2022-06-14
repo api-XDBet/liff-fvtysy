@@ -187,7 +187,7 @@ table {
   box-align: center;
   text-align: center;
   border-collapse: collapse;
-  width: 50%;
+  width: auto;
 }
 
 th {
@@ -205,8 +205,17 @@ tr:nth-child(even) {
 }
 
 fieldset {
+  display: -moz-box;
+  display: -webkit-box;
+  display: box;
+  -moz-box-pack: center;
+  -moz-box-align: center;
+  -webkit-box-pack: center;
+  -webkit-box-align: center;
+  box-pack: center;
+  box-align: center;
   text-align: center;
   border-width: 3px;
   border-radius: 30px;
-  width: 30%;
+  width: auto;
 }
